@@ -86,7 +86,7 @@
 
     <section class="book">
       <div class="section__container book__container">
-        <form action="/">
+        <!-- <form action="javascript:void(0);">
           <h4>Book a Table</h4>
           <div class="input__row">
             <div class="input__group">
@@ -111,6 +111,41 @@
           <div class="input__row">
             <button class="btn" type="submit">BOOK A TABLE</button>
           </div>
+          <div id="successMessage" style="display: none; color: green; font-size: 18px; margin-top: 20px;">🎉 Thank you, your table is booked!</div> -->
+          <section id="book" class="book__container">
+            <form id="bookForm">
+              <h4>Book a Table</h4>
+              <div class="input__row">
+                <div class="input__group">
+                  <label for="firstName">FIRST NAME</label>
+                  <input type="text" id="firstName" />
+                </div>
+                <div class="input__group">
+                  <label for="lastName">LAST NAME</label>
+                  <input type="text" id="lastName" />
+                </div>
+              </div>
+              <div class="input__row">
+                <div class="input__group">
+                  <label for="date">DATE</label>
+                  <input type="date" id="date" />
+                </div>
+                <div class="input__group">
+                  <label for="person">PERSON</label>
+                  <input type="text" id="person" />
+                </div>
+              </div>
+              <div class="input__row">
+                <button class="btn" type="submit">BOOK A TABLE</button>
+              </div>
+            </form>
+          
+            <!-- Success Message -->
+            <div id="successMessage" style="display: none; color: green; font-weight: bold;">
+              Thank you for booking! Your table is confirmed.
+            </div>
+          </section>
+          
         </form>
       </div>
     </section>
