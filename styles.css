@@ -74,7 +74,7 @@ body {
 
 header {
   min-height: 75vh;
-  background-image: url("wall.png");
+  background-image: url("assets\wall.png");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
